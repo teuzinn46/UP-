@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    align-items: center;
+}
+.hqs nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+nav, a{
+    text-decoration: none;
+    color: white;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Transição suave */
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+    margin-top: 145px;
+}
+.redes, .t{
+    margin-right: 40px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+.sobre h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.sobre h2{
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+span{
+    font-weight: 100;
+    color: red
+}
+.ofertas{
+    text-align: center;
+    font-size: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.imperdivel{
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-top: 90px;
+}
+.maisVendidos::before{
+    content: "";
+    inset: 0;
+    background-image: url(img/img\ fundo-pgn\ principal\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+    
+}
+.maisVendidos{
+    position:relative ;
+    padding-bottom: 80px;
+}
+.verde{
+    color: rgb(16, 201, 16);
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.caixa1 img{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.caixa1 p{
+    width: 220px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.caixa2 p{
+    width: 220px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.caixa1{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.caixa1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.caixa2{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.caixa2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);  
+}
+.caixa2 img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.preto{
+    height: 10px;
+    background-color: black;
+}
+footer .informacoes{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding-left: 400px;
+    color: white;
+}
+footer{
+   background-color: #969696;
+   height: 200px;
+}
+footer .up{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+footer .informacoes2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding-left: 400px;
+    color: white;
+}
